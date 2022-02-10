@@ -5,6 +5,7 @@
 // }
 
 import Item from './components/Item';
+import Card from './components/Card';
 
 const App = () => {
   return(
@@ -16,6 +17,7 @@ const App = () => {
         <Item texto='Item 2' />
         {/* <Item>Item 3</Item> --> para usar com props.children*/}
       </ul>
+      <Card/>
     </>
   )
 }
