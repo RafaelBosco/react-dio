@@ -17,7 +17,7 @@ const Card = () => {
     return (
         <div className="card">
             <div className="card-header">
-                Meu Pirmeiro Card
+                Meu Pirmeiro Card!
             </div>
             <div className="card-body">
                 <Button
